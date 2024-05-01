@@ -16,6 +16,7 @@ pipeline {
             steps {
                 echo 'Deploying....'
             }
+	}	
 	stage('Read README.md') {
 	    steps {
 		echo 'Reading.....'
