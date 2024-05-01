@@ -17,9 +17,9 @@ pipeline {
                 echo 'Deploying....'
             }
 	}	
-	stage('Read README.md') {
+	stage('Verifying Identity') {
 	    steps {
-		echo 'Reading.....'
+		echo 'This is me Hazem !'
             }
             }
         }
